@@ -1,6 +1,6 @@
 # Import necessary modules and components
 from graph.state import AgentState, show_agent_reasoning  # For managing agent state and displaying reasoning
-from langchain_core.prompts import ChatPromptTemplate     # For creating chat prompts
+from langchpain_core.prompts import ChatPromptTemplate     # For creating chat prompts
 from langchain_core.messages import HumanMessage          # For creating human-readable messages
 from pydantic import BaseModel                            # For data validation and settings management
 import json                                               # For working with JSON data
